@@ -39,7 +39,7 @@
               font-size: 160px;
               line-height: 75%;
               text-align: center;
-              font-feature-settings: "ss02"on;
+              font-feature-settings: "ss02" on;
               color: #ffffff;
               display: flex;
               justify-content: center;
@@ -53,7 +53,7 @@
                 font-size: 44px;
                 line-height: 100%;
                 text-align: center;
-                font-feature-settings: "ss02"on;
+                font-feature-settings: "ss02" on;
                 color: #ffffff;
                 text-transform: uppercase;
               }
@@ -66,7 +66,7 @@
               font-size: 22px;
               line-height: 150%;
               text-align: center;
-              font-feature-settings: "ss02"on;
+              font-feature-settings: "ss02" on;
               color: #ffffff;
             }
           }
@@ -81,7 +81,7 @@
             font-weight: 600;
             font-size: 16px;
             line-height: 150%;
-            font-feature-settings: "ss02"on;
+            font-feature-settings: "ss02" on;
             color: #ffffff;
             text-align: center;
             margin-top: 40%;
@@ -169,7 +169,7 @@
               font-size: 28px;
               line-height: 150%;
               text-align: center;
-              font-feature-settings: "ss02"on;
+              font-feature-settings: "ss02" on;
               color: #19191c;
             }
 
@@ -181,7 +181,7 @@
               font-size: 16px;
               line-height: 150%;
               text-align: center;
-              font-feature-settings: "ss02"on;
+              font-feature-settings: "ss02" on;
               color: #828487;
             }
 
@@ -197,7 +197,7 @@
                 font-weight: 500;
                 font-size: 12px;
                 line-height: 150%;
-                font-feature-settings: "ss02"on;
+                font-feature-settings: "ss02" on;
                 color: #828487;
 
                 .input_box {
@@ -218,7 +218,7 @@
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 150%;
-                    font-feature-settings: "ss02"on;
+                    font-feature-settings: "ss02" on;
                     color: #19191c;
 
                     &::placeholder {
@@ -227,7 +227,7 @@
                       font-weight: 400;
                       font-size: 16px;
                       line-height: 150%;
-                      font-feature-settings: "ss02"on;
+                      font-feature-settings: "ss02" on;
                       color: #c2c2c2;
                     }
                   }
@@ -257,7 +257,7 @@
                 font-weight: 600;
                 font-size: 14px;
                 line-height: 140%;
-                font-feature-settings: "ss02"on;
+                font-feature-settings: "ss02" on;
                 color: #ff5c00;
                 transition: all 0.4s;
 
@@ -277,7 +277,7 @@
                 font-weight: 600;
                 font-size: 12px;
                 line-height: 50%;
-                font-feature-settings: "ss02"on;
+                font-feature-settings: "ss02" on;
                 color: #ff5c00;
                 opacity: 1;
                 transition: all 0.4s;
@@ -307,7 +307,7 @@
                   font-weight: 600;
                   font-size: 16px;
                   line-height: 150%;
-                  font-feature-settings: "ss02"on;
+                  font-feature-settings: "ss02" on;
                   color: #ffffff;
                   transition: all 0.4s;
                   cursor: pointer;
@@ -331,7 +331,7 @@
             font-size: 16px;
             line-height: 150%;
             text-align: center;
-            font-feature-settings: "ss02"on;
+            font-feature-settings: "ss02" on;
             color: #828487;
             text-decoration: none;
             margin-top: 5%;
@@ -419,7 +419,6 @@
 
       .main_page {
         width: 100%;
-
         header {
           display: flex;
           justify-content: space-between;
@@ -439,7 +438,7 @@
                 font-weight: 600;
                 font-size: 16px;
                 line-height: 150%;
-                font-feature-settings: "ss02"on;
+                font-feature-settings: "ss02" on;
                 color: #19191c;
               }
 
@@ -449,7 +448,7 @@
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 140%;
-                font-feature-settings: "ss02"on;
+                font-feature-settings: "ss02" on;
                 color: #828487;
               }
             }
@@ -482,7 +481,7 @@
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 150%;
-                    font-feature-settings: "ss02"on;
+                    font-feature-settings: "ss02" on;
                     color: #828487;
                   }
 
@@ -529,7 +528,7 @@
                   font-weight: 600;
                   font-size: 14px;
                   line-height: 140%;
-                  font-feature-settings: "ss02"on;
+                  font-feature-settings: "ss02" on;
                   color: #ff5c00;
                   background: #fff5ee;
                   border-radius: 58px;
@@ -542,7 +541,7 @@
                   font-weight: 400;
                   font-size: 14px;
                   line-height: 140%;
-                  font-feature-settings: "ss02"on;
+                  font-feature-settings: "ss02" on;
                   color: #19191c;
                   background: #f8f9fd;
                   border-radius: 40px;
@@ -564,7 +563,6 @@
             }
           }
         }
-
         main {
           width: 100%;
           display: flex;
@@ -575,12 +573,13 @@
             flex-direction: column;
             border-right: 1px solid #e4e4e4;
             padding: 24px;
-
             a {
               &:nth-of-type(3) {
-                background: linear-gradient(218.57deg,
-                    #ffab18 -6.67%,
-                    #ff2197 137.69%);
+                background: linear-gradient(
+                  218.57deg,
+                  #ffab18 -6.67%,
+                  #ff2197 137.69%
+                );
                 color: wheat;
                 border-radius: 8px;
 
@@ -616,9 +615,11 @@
               cursor: pointer;
 
               &:hover {
-                background: linear-gradient(218.57deg,
-                    #ffab18 -6.67%,
-                    #ff2197 137.69%);
+                background: linear-gradient(
+                  218.57deg,
+                  #ffab18 -6.67%,
+                  #ff2197 137.69%
+                );
                 color: wheat;
                 border-radius: 8px;
 
@@ -634,7 +635,6 @@
           }
           section {
             width: 100%;
-
             .section_paghes {
               margin-top: 10px;
               padding-bottom: 10px;
@@ -645,7 +645,7 @@
               font-weight: 500;
               font-size: 12px;
               line-height: 150%;
-              font-feature-settings: "ss02"on;
+              font-feature-settings: "ss02" on;
               color: #ff5c00;
 
               span {
@@ -676,7 +676,7 @@
                         font-weight: 400;
                         font-size: 16px;
                         line-height: 150%;
-                        font-feature-settings: "ss02"on;
+                        font-feature-settings: "ss02" on;
                         color: #c2c2c2;
                       }
                     }
@@ -707,7 +707,7 @@
                   font-weight: 400;
                   font-size: 14px;
                   line-height: 140%;
-                  font-feature-settings: "ss02"on;
+                  font-feature-settings: "ss02" on;
                   color: #19191c;
                   transition: all 0.4s;
                   cursor: pointer;
@@ -721,23 +721,27 @@
               }
 
               .section_options_badge_add_item {
-                font-family: 'Poppins';
+                font-family: "Poppins";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 140%;
-                font-feature-settings: 'ss02'on;
-                color: #FFF5EE;
-                background: linear-gradient(218.57deg, #FFAB18 -6.67%, #FF2197 137.69%);
-                border: 1px solid #E4E4E4;
+                font-feature-settings: "ss02" on;
+                color: #fff5ee;
+                background: linear-gradient(
+                  218.57deg,
+                  #ffab18 -6.67%,
+                  #ff2197 137.69%
+                );
+                border: 1px solid #e4e4e4;
                 border-radius: 40px;
                 padding: 8px 25px;
                 transition: all 0.4s;
                 cursor: pointer;
 
                 &:hover {
-                  color: #FF5C00;
-                  background: #FFF5EE;
+                  color: #ff5c00;
+                  background: #fff5ee;
                   border: 1px solid#FF5C00;
                 }
               }
@@ -745,13 +749,13 @@
 
             .section_row {
               padding: 29px;
-              background: #F8F9FD;
+              background: #f8f9fd;
               display: flex;
               flex-wrap: wrap;
 
               .section_row_col {
                 padding: 12px 8px 16px;
-                background: #FFFFFF;
+                background: #ffffff;
                 border-radius: 16px;
                 position: relative;
                 overflow-x: hidden;
@@ -770,25 +774,25 @@
                   margin-top: 12px;
 
                   h3 {
-                    font-family: 'Poppins';
+                    font-family: "Poppins";
                     font-style: normal;
                     font-weight: 600;
                     font-size: 16px;
                     line-height: 150%;
                     text-align: center;
-                    font-feature-settings: 'ss02'on;
-                    color: #19191C;
+                    font-feature-settings: "ss02" on;
+                    color: #19191c;
                   }
 
                   p {
-                    font-family: 'Poppins';
+                    font-family: "Poppins";
                     font-style: normal;
                     font-weight: 600;
                     font-size: 16px;
                     line-height: 150%;
                     text-align: center;
-                    font-feature-settings: 'ss02'on;
-                    color: #FF5C00;
+                    font-feature-settings: "ss02" on;
+                    color: #ff5c00;
                   }
                 }
 
@@ -809,11 +813,11 @@
                   border: 1.5px solid transparent;
 
                   &:hover {
-                    border-color: #FF5C00;
+                    border-color: #ff5c00;
 
                     svg {
                       path {
-                        fill: #FF5C00;
+                        fill: #ff5c00;
                       }
 
                       defs {
@@ -838,7 +842,7 @@
                     defs {
                       linearGradient {
                         stop {
-                          stop-color: #FF5C00;
+                          stop-color: #ff5c00;
                         }
                       }
                     }
@@ -857,7 +861,7 @@
             }
           }
         }
-        .modal{
+        .modal {
           width: 100%;
           height: 100%;
           position: fixed;
@@ -865,13 +869,48 @@
           left: 0%;
           background-color: rgba(0, 0, 0, 0.7);
           // opacity: 0;
-          .modal_container{
+          .modal_container {
             max-width: 460px;
-            position: absolute;
+            position: absolute; 
             top: 50%;
             left: 50%;
-
-          transform: translate( );
+            transform: translate(-50%, -50%);
+            background: #fff;
+            border-radius: 10px;
+            .modal_top {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              gap: 8px;
+              padding: 10px 18px;
+              border-bottom: 1px solid #e4e4e4;
+              .modal_top_title {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                font-feature-settings: "ss02" on;
+                color: #19191c;
+              }
+              .modal_top_icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+                border: 1.5px solid transparent;
+                transition: all 0.4s;
+                border-radius: 6px;
+                &:hover{
+                    border-color: #000;
+                }
+              }
+            }
+            .modal_top_main{
+                padding: 27px 19px 14px 30px;
+            }
           }
         }
       }

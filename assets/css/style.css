@@ -631,28 +631,28 @@
   font-size: 14px;
   line-height: 140%;
   font-feature-settings: "ss02" on;
-  color: #FFF5EE;
-  background: linear-gradient(218.57deg, #FFAB18 -6.67%, #FF2197 137.69%);
-  border: 1px solid #E4E4E4;
+  color: #fff5ee;
+  background: linear-gradient(218.57deg, #ffab18 -6.67%, #ff2197 137.69%);
+  border: 1px solid #e4e4e4;
   border-radius: 40px;
   padding: 8px 25px;
   transition: all 0.4s;
   cursor: pointer;
 }
 * body .container .main_page main section .section_options .section_options_badge_add_item:hover {
-  color: #FF5C00;
-  background: #FFF5EE;
+  color: #ff5c00;
+  background: #fff5ee;
   border: 1px solid #FF5C00;
 }
 * body .container .main_page main section .section_row {
   padding: 29px;
-  background: #F8F9FD;
+  background: #f8f9fd;
   display: flex;
   flex-wrap: wrap;
 }
 * body .container .main_page main section .section_row .section_row_col {
   padding: 12px 8px 16px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 16px;
   position: relative;
   overflow-x: hidden;
@@ -676,7 +676,7 @@
   line-height: 150%;
   text-align: center;
   font-feature-settings: "ss02" on;
-  color: #19191C;
+  color: #19191c;
 }
 * body .container .main_page main section .section_row .section_row_col .section_row_col_title p {
   font-family: "Poppins";
@@ -686,7 +686,7 @@
   line-height: 150%;
   text-align: center;
   font-feature-settings: "ss02" on;
-  color: #FF5C00;
+  color: #ff5c00;
 }
 * body .container .main_page main section .section_row .section_row_col .section_row_col_del {
   display: flex;
@@ -705,10 +705,10 @@
   border: 1.5px solid transparent;
 }
 * body .container .main_page main section .section_row .section_row_col .section_row_col_del:hover {
-  border-color: #FF5C00;
+  border-color: #ff5c00;
 }
 * body .container .main_page main section .section_row .section_row_col .section_row_col_del:hover svg path {
-  fill: #FF5C00;
+  fill: #ff5c00;
 }
 * body .container .main_page main section .section_row .section_row_col .section_row_col_del:hover svg defs linearGradient stop {
   stop-color: #000;
@@ -720,7 +720,7 @@
   fill: #fff;
 }
 * body .container .main_page main section .section_row .section_row_col:hover svg defs linearGradient stop {
-  stop-color: #FF5C00;
+  stop-color: #ff5c00;
 }
 * body .container .main_page main section .section_row .section_row_col:hover .section_row_col_del {
   opacity: 1;
@@ -741,5 +741,41 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate();
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 10px;
+}
+* body .container .main_page .modal .modal_container .modal_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-bottom: 1px solid #e4e4e4;
+}
+* body .container .main_page .modal .modal_container .modal_top .modal_top_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  font-feature-settings: "ss02" on;
+  color: #19191c;
+}
+* body .container .main_page .modal .modal_container .modal_top .modal_top_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+  transition: all 0.4s;
+  border-radius: 6px;
+}
+* body .container .main_page .modal .modal_container .modal_top .modal_top_icon:hover {
+  border-color: #000;
+}
+* body .container .main_page .modal .modal_container .modal_top_main {
+  padding: 27px 19px 14px 30px;
 }/*# sourceMappingURL=style.css.map */
